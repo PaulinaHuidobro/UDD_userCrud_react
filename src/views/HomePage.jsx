@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { TableGetUser } from "../components/TableUser/TableGetUser"
-import { Header } from "../components/Header/Header"
+import { Header } from "../components/header/Header"
 
 
 

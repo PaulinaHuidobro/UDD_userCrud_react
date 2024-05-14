@@ -30,9 +30,6 @@ export const TableGetUser = () => {
         getUsers()
     }, [users])
 
-
-
-
     return (
       <>
         <div className="container">

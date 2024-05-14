@@ -4,13 +4,14 @@ import { getFirestore } from "firebase/firestore";
 
 const API_KEY = import.meta.env.VITE_API_KEY
 
+
 const firebaseConfig = {
   apiKey: API_KEY,
-  authDomain: "user-app-emergency.firebaseapp.com",
-  projectId: "user-app-emergency",
-  storageBucket: "user-app-emergency.appspot.com",
-  messagingSenderId: "356989454312",
-  appId: "1:356989454312:web:2af6bf99deab723c9ec65d",
+  authDomain: "restaurant-34a0c.firebaseapp.com",
+  projectId: "restaurant-34a0c",
+  storageBucket: "restaurant-34a0c.appspot.com",
+  messagingSenderId: "795013837058",
+  appId: "1:795013837058:web:ccf71418304975c98b921b"
 };
 
 // Initialize Firebase

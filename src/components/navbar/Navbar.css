@@ -1,0 +1,14 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+    background-color: #432fab;
+}
+
+.NavbarOpen {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #432fab;
+    flex-direction: column;
+}
