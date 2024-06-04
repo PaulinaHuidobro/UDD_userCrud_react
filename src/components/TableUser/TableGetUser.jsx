@@ -18,7 +18,9 @@ export const TableGetUser = () => {
     const usersCollectionReference = collection(db, 'users')
 
     const getUsers = async() => {
+        console.log("Hola")
         const data = await getDocs(usersCollectionReference);
+        console.log ("esto es  data",data)
         setUsers(
             data.docs.map((doc) => ({...doc.data(), id: doc.id})) // los tes (...) son el Spread Operator
             //docs siempre es un array

@@ -1,1 +1,38 @@
-card
+/* Footer.css */
+.footer-card {
+    width: 100%; /* Anchura del 100% */
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-top: 2px; /* Espacio superior */
+    background-color: #67be6d !important; /* Color de fondo */
+    border-radius: 0px; /* Borde redondeado */
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .footer-img {
+    height: 40px; /* Altura de la imagen */
+    object-fit: cover; /* Escala la imagen para cubrir el tamaño del contenedor */
+    color: aliceblue;
+    align-items: center;
+  }
+  
+  .footer-title {
+    color: #333; /* Color del título */
+    font-size: 18px; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .footer-text {
+    color: #f5f3f3; /* Color del texto */
+  }
+  
+  .footer-button {
+    margin-top: 10px; /* Espacio superior para el botón */
+  }
+
+  .footer-img{
+    size: 10px;
+    margin-right: 20px;
+    align-items: center;
+  }

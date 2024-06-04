@@ -1,49 +1,32 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import "./Navbar.css";
-import { IoMdMenu } from "react-icons/io";
-import { IoIosCloseCircle } from "react-icons/io";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './navbar.css';
 
 
- const Navbar = () => {
-    
-     const[navBarOpen, setNavBarOpen] = useState(false)
-    const links=[
-        {
-            id:1,
-            link: "Home"
-        },
-        {
-            id:2,
-            link: "Services"
-        },
-        {
-            id:3,
-            link: "homework"
-        },
-        {
-            id:4,
-            link: "Benefits" 
-        },
-    ];
+const Navbar = () => {
   return (
-    <div className={!navBarOpen === true ? StyleSheet.navBar: StyleSheet.navBarOpen}>
-        <p>Restaurante Di Santina | comida fusion  </p>
-        {!navBarOpen ? (
-        <IoMdMenu  onClick={() => setNavBarOpen(!navBarOpen)} size={25}/>
-        ):(
-        <IoIosCloseCircle   onClick={() => setNavBarOpen(!navBarOpen)} size={25}/>
-        )}
-        {navBarOpen && (
-            <ul>
-            {links.map((x) =>(
-             <div>
-                <Link>{x.link === "HomeWeWork" ? "How we work" : x.link}</Link>
-             </div>
-            ))}
-        </ul>
-        )}
-    </div>
+    
+     <div className="navbar"> {/* Utilizamos un div para contener el Navbar */}
+     <img src='https://previews.123rf.com/images/lovecta/lovecta1711/lovecta171100015/89498155-redondo-logotipo-verde-logotipo-de-vector-vegano-signo-de-comida-vegana-con-hojas-dise%C3%B1o.jpg' alt="Imagen del restaurante" className="restaurant-logo"></img>
+      <h1>Vita, comida vegana</h1>
+      <div className="nav-links">
+      
+    <Link className= "boton-home" to= {'/'}>
+        {" "}
+        SOBRE NOSOTROS {" "}
+        </Link>                                                                                        
+    <Link className= "boton-reserva" to= {'/reservas'}> 
+    {" "}
+    RESERVAS{" "}
+    </Link>                                                                                                                                                                   
+    <Link className= "boton-perfil" to= {'/menu'}>
+    {" "}
+    NUESTRA CARTA {" "}
+    </Link> 
+     </div>  
+     </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                
   );
 };
-export default Navbar
+
+export default Navbar;

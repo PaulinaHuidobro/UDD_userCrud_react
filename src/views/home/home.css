@@ -1,0 +1,28 @@
+.home-container {
+    background-color: antiquewhite;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  
+    
+    
+  }
+  .div{
+    background-color: hsl(66, 55%, 71%) !important
+  }
+  
+  .title {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .restaurant-image {
+    width: 350px;
+    width: 350px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 70px 10px 70px 10px;
+  }

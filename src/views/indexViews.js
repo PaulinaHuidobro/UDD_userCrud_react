@@ -1,4 +1,6 @@
-export * from './HomePage'
+export * from './home/Home'
+export * from './Reserva'
 export * from './CreatePage/CreatePage'
 export * from './EditPage/EditPage'
 export * from './NotFound/NotFound'
+export * from './menu/Menu'

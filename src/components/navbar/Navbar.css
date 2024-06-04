@@ -1,14 +1,59 @@
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-    aling-items: center;
-    background-color: #432fab;
+.navbar {
+  background-color: #67be6d!important; /* Color de fondo del navbar */
+  color: #ced3d3; /* Color del texto */
+  padding: 100px; /* Espaciado interno */
+  position: relative;
+  display: flex;
+  justify-content: 0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-size: 0px; /* Ajustar la imagen al tamaño del navbar */
+  background-position: center; /* Posicionar la imagen en el centro del navbar */
+  }
+  
+  
+
+.navbar h1 {
+  color: #fff; /* Color del texto */
+  font-size: 40px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+  margin: 30px; /* Eliminar márgenes por defecto */
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.NavbarOpen {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: #36287d;
-    flex-direction: column;
+.nav-links {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 2em;
+
 }
+
+.nav-links a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado */
+  margin-left: 20px; /* Espacio entre enlaces */
+  font-family: 'Arial', sans-serif; /* Fuente del texto */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.nav-links a:hover {
+  
+  color: #090909; /* Cambiar color del texto al pasar el ratón */}
+
+  .restaurant-logo {
+
+    position: center; /* Posiciona la imagen de manera absoluta */
+    top: 10%; /* La mitad de la altura del contenedor (centra verticalmente) */
+    left: 100px; /* Alinea la imagen al borde izquierdo del contenedor */
+    right: 100px;
+    transform: translateY; /* Ajusta la posición verticalmente para centrarla correctamente */
+    width: 100px; /* Ancho de la imagen */
+    height: auto; 
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 100% ;
+ 
+    
+  }

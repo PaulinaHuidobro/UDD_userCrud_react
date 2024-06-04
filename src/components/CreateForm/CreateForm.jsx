@@ -43,7 +43,7 @@ export const CreateForm = () => {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <h2>Create New User</h2>
+                    <h2>Reserva aqui </h2>
 
                     <CrudForm 
                         handleSubmit={onSubmit}
